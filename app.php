@@ -7,7 +7,7 @@ error_reporting(E_ALL);
   public $local= array(
     's' => 'localhost',
     'u' => 'ktupad',
-    'p' => 'db@ktupad',
+    'p' => '123456',
     'n'=> 'demo'
     );
   }
