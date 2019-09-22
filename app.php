@@ -5,10 +5,10 @@ error_reporting(E_ALL);
   include('ktupad/ktupad.php');
   class app extends mod {
   public $local= array(
-    's' => 'localhost',
-    'u' => 'ktupad',
-    'p' => '123456',
-    'n'=> 'demo'
+    's' => 'den1.mysql4.gear.host',
+    'u' => 'oledktupad',
+    'p' => 'Lg2ExXQk3!J-',
+    'n'=> 'oledktupad'
     );
   }
 
