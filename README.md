@@ -31,5 +31,7 @@ lalu klik commit changes.
 1. http://oledapp.gearhostpreview.com/app.php?mod=install
 2. Jalankan aplikasi http://oledapp.gearhostpreview.com/
 
-Done.
+Done.  
+
+
 ![Ktupad oled App](oled.gif)
