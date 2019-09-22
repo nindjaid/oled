@@ -32,5 +32,4 @@ lalu klik commit changes.
 2. Jalankan aplikasi http://oledapp.gearhostpreview.com/
 
 Done.
-
-![Ktupad oled App](oled.png)
+![Ktupad oled App](oled.gif)
