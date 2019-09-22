@@ -34,4 +34,5 @@ lalu klik commit changes.
 Done.  
 
 
+![Ktupad oled App](oled-1.jpeg)  
 ![Ktupad oled App](oled.gif)
