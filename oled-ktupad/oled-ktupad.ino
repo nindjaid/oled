@@ -8,9 +8,9 @@
 #define OLED_RESET 0  // GPIO0
 Adafruit_SSD1306 OLED(OLED_RESET);
 
-const char *ssid =  "ktupad.com";   
-const char *pass =  "wifi@ktupad"; 
-String kirim = "http://oled-ktupad.gearhostpreview.com/sensor/?id=1";
+const char *ssid =  "myssid";   
+const char *pass =  "passssid"; 
+String host = "http://oledapp.gearhostpreview.com/iot&mod=read&id=1";
 
 void setOLED(String txt){
   OLED.begin();
@@ -26,7 +26,7 @@ void setOLED(String txt){
   
 void getID(){
   HTTPClient http;
-  http.begin(kirim);
+  http.begin(host);
   int statusCode = http.GET();
   String txt=http.getString();
   
